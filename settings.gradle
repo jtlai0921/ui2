@@ -1,0 +1,2 @@
+rootProject.name='口罩地圖'
+include ':app'
