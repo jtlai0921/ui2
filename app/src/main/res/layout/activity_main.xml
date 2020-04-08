@@ -22,7 +22,7 @@
             android:background="#8EC7C1"
             android:drawableLeft="@mipmap/ic_launcher"
             android:drawablePadding="@android:dimen/app_icon_size"
-            android:text="產品"
+            android:text="+"
             android:textColor="#ffffff"
             android:textSize="20sp" />
 
@@ -47,6 +47,7 @@
             android:textSize="20sp" />
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -55,10 +56,10 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="319dp"
-            android:layout_weight="1"
+            android:layout_width="50dp"
+            android:layout_height="409dp"
+            android:layout_weight="100"
             app:srcCompat="@drawable/a1" />
-            android:scaleType="fix xy"
+        android:scaleType="fix xy"
     </LinearLayout>
 </LinearLayout>
